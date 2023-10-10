@@ -333,22 +333,23 @@ section {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
-    margin-bottom: 2rem;
 }
 
 .experience-details-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 2.5rem;
 }
 
 .article-container {
     display: flex;
-    text-align: initial;
+    text-align: left;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
+    margin-top: 2rem;
 }
 
 article {
@@ -361,6 +362,8 @@ article {
 article .icon {
     cursor: default;
 }
+
+
 
 /* PROJECTS SECTION */
 

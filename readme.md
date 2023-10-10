@@ -4,7 +4,7 @@
 
 Hi! I am Alexander, a passionate full-stack developer with a deep interest in creating innovative web solutions. This portfolio showcases my work and skills gathered throughout my journey in the tech industry.
 
-Link to my site: [www.alexander.lungu](www.alexanderlungu.com)
+Link to my site: [www.alexanderlungu.com](www.alexanderlungu.com)
 
 ## Features
 

@@ -356,6 +356,7 @@ article {
     width: 10rem;
     justify-content: space-evenly;
     gap: 0.5rem;
+    margin-top: 1rem;
 }
 
 article .icon {

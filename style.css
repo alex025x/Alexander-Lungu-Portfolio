@@ -344,18 +344,17 @@ section {
 
 .article-container {
     display: flex;
-    text-align: left;
+    text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
-    margin-top: 2rem;
 }
 
 article {
-    display: flex;
+    display: flexbox;
     width: 10rem;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap: 0.5rem;
 }
 

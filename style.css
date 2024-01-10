@@ -4,8 +4,8 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
 body {
@@ -97,7 +97,6 @@ a:hover {
 }
 
 .menu-links {
-    margin-top: 1rem;
     position: absolute;
     top: 100%;
     right: 0;
@@ -318,9 +317,7 @@ section {
     margin: auto 0;
 }
 
-#experience {
-    position: relative;
-}
+
 
 /* EXPERIENCE SECTION */
 
@@ -332,36 +329,37 @@ section {
     color: rgb(85, 85, 85);
     font-weight: 600;
     font-size: 1.75rem;
+    margin-bottom: 2rem;
 }
 
 .experience-details-container {
-    display: flex;
+    display: flexbox;
     justify-content: center;
     flex-direction: column;
-    margin-top: 2.5rem;
+    
 }
 
 .article-container {
     display: flex;
-    text-align: initial;
     flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 20px;
 }
 
 article {
-    display: flexbox;
-    width: 10rem;
-    justify-content: space-evenly;
-    gap: 0.5rem;
-    margin-top: 1rem;
+    flex-basis: calc(50% - 10px);
+    margin: 0;
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 article .icon {
     cursor: default;
 }
-
 
 
 /* PROJECTS SECTION */
